@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Socooil</title>
+  </head>
+  <body>
+    <div class="container-fluid br">
+    <div class="row">
+        <div class="col-md-2 col-xs-12 bg-gray br-top-left">
+            <div class="logo mb-5 mt-5">
+                <img class="img-fluid" src="../images/logo.png">
+                <h4 class="d-inline-block ml-2">Socooil</h4>
+            </div>
+
+
+            <div class="dashboard mt-4 mb-4">
+                <img class="img-fluid" src="images/dashboard.png">
+                <h5 class="d-inline-block ml-2 ft-gray">Dashboard</h5>
+            </div>
+            <div class="dashboard mt-4 mb-4">
+                <img class="img-fluid" src="images/account.png">
+                <h5 class="d-inline-block ml-2 ft-gray">Account</h5>
+            </div>
+            <div class="dashboard mt-4 mb-4">
+                <img class="img-fluid" src="images/analytics.png">
+                <h5 class="d-inline-block ml-2 ft-gray">Analytics</h5>
+                <img class="circle ml-2"></img>
+            </div>
+            <div class="dashboard mt-4 mb-4">
+                <img class="img-fluid" src="images/calendar.png">
+                <h5 class="d-inline-block ml-2 ft-gray">Calendar</h5>
+            </div>
+            <div class="dashboard mt-4 mb-4">
+                <img class="img-fluid" src="images/company.png">
+                <h5 class="d-inline-block ml-2 ft-gray">Company</h5>
+            </div>
+            <div class="dashboard mt-4 mb-4">
+                <img class="img-fluid" src="images/chat.png">
+                <h5 class="d-inline-block ml-2 ft-gray">Chat</h5>
+            </div>
+
+            <img class="img-fluid" src="images/man-computer.png">
+
+            <h6 class="ft-gray flex-center">Buy Paid Packages To</h6>
+            <h6 class="ft-gray flex-center">To Increase Followers</h6>
+
+            <button class="btn btn-primary bg-purple br text-center w-90 mt-3 mb-5">Buy Now</button>
+
+            <div class="user bg-white pt-3 pl-3 pr-3 pb-3">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-2">
+                        <img src="images/face.png">
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-8">
+                        <p class="ft-gray ml-3 mb-0">Morning</p>
+                        <p class="ml-3"><strong>Chris Allow</strong></p>
+                    </div>                
+                    <div class="col-md-1 col-sm-1 col-xs-1">
+                        <img  src="images/return.png">
+                    </div>
+                </div>
+                
+            </div>
+
+        </div> 
+        <!-- End of col-1 -->
+
+        <div class="col-md-6 bg-gray2 ">
+            <div class="row ">
+                <div class="col-md-4">
+                    <div class="intro mt-5">
+                        <h4>Analytics</h4>
+                        <small class="ft-gray">Hello Chris, welcome back!</small>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="notification mt-5 d-flex justify-content-end">
+                        <div class="box"><img class="abs-center" src="images/notification2.png"></div>
+                        <div class="box ml-2"><img class="abs-center" src="images/notification.png"></div>                     
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 mt-4">
+                    <div class="brown-box br">
+                    <div class="row">                    
+                        <div class="col-md-6">
+                            <p class="mb-0 ml-4 mt-5 z-index-1">Have you tried</p>
+                            <p class="mb-0 ml-4 z-index-1">our <strong>mobile application?</strong></p>
+                            <button class="btn btn-primary text-center mt-3 mb-5 ml-4 bg-white txt-black br">Try Now</button>
+                        </div>                        
+                        <div class="col-md-6">
+                            <img class="abs-left img-fluid" src="images/girl.png">                  
+                        </div>
+                    </div>
+                    </div>
+
+
+
+                </div> 
+                <div class="col-md-3 text-white bg-purple mt-4 br ml-5">
+                    <img class="mt-3 ml-4 img-fluid img-chat" src="images/circles.png">
+                    <h4 class="text-center mt-2">20.k</h4>
+                    <p class="text-center">Pending Messages</p>
+                    <p class="text-center">...</p>
+                </div>                   
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 bg-white br mt-3 ml-3">
+                        <p class="mb-0 mt-3"><strong>Followers on Page</strong><span class="float-right">...</span></p>
+                        <span class="ft-gray mb-0"><small> Aug 25-Sep 25</small></span><img class="ml-3" src="images/down-arrow.png">
+                        <div class="card-body p-3">
+                            <div class="chart">
+                              <canvas id="chart-line" class="chart-canvas" height="300"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5  mt-3 ml-3 h-20">
+                        <div class="bg-white br p-3">
+                            <p class="mb-0 "><strong>Followers Gender</strong><span class="float-right">...</span></p>
+                            <span class="ft-gray mb-0"><small> Aug 25-Sep 25</small></span><img class="ml-3" src="images/down-arrow.png">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="circle"><span class="ml-2 ft-gray"><small>Female </small></span>
+                                    <p><strong>%80</strong></p>
+                                    <img class="circle brown"><span class="ml-2 ft-gray"><small>Male </small></span>
+                                    <p class="mb-0"><strong>%20</strong></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-fluid" src="images/face-circle.png">
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="row mt-5 ml-1">
+                            <div class="col-md-5 bg-white br mr-4">
+                                
+                                    <img src="images/bar-purple.png">
+                                    <small class="ml-2 ft-gray">Photo Clicks</small>
+                                    <span><strong>%70</strong></span>
+                                    <p class="ft-gray">...</p>
+                                
+
+                            </div>
+                            <div class="col-md-5 bg-white br">
+                                <img src="images/bar-orange.png" class="img-fluid">
+                                <small class="ml-2 ft-gray">Link Clicks</small>
+                                <span><strong>%30</strong></span>
+                                <p class="ft-gray">...</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!-- end of col-2 -->
+
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="input-group mb-3 mt-4 p-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"><img src="images/search.png"></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Search Dashboard">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><img src="images/settings.png"></span>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-3">
+                        <img src="images/face-square.png">
+                    </div>
+                    <div class="col-md-9 col-sm-9">
+                        <p class="mb-0"><strong>Company Name</strong><img class="ml-3" src="images/down-arrow.png"></p>
+                        <p>facebook.com/companyname</p>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="row mt-5">
+                    <div class="col-md-2">
+                        <p class="mb-0"><strong>3.k</strong></p>
+                        <p><small>Average Likes</small></p>
+                    </div>
+                    <div class="col-md-10">
+                        <p class="float-right mr-5"><small>Aug 25-Sep 25</small> <img class="mx-2" src="images/down-arrow.png"></p>  
+                        <div class="progress w-90" >              
+                            <div class="progress-bar bg-orange w-20" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>                            
+                        </div>
+                        <img class="float-right mr-5 mt-2" src="images/like.png">
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-2">
+                        <p class="mb-0"><strong>22.k</strong></p>
+                        <p><small>Average Comments</small></p>
+                    </div>
+                    <div class="col-md-10">
+                        <p class="float-right mr-5"><small>Aug 25-Sep 25</small> <img class="mx-2" src="images/down-arrow.png"></p>  
+                        <div class="progress w-90" >              
+                            <div class="progress-bar bg-orange w-80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>                            
+                        </div>
+                        <img class="float-right mr-5 mt-2" src="images/check.png">
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-2">
+                        <p class="mb-0"><strong>3.k</strong></p>
+                        <p><small>Average Shares</small></p>
+                    </div>
+                    <div class="col-md-10">
+                        <p class="float-right mr-5"><small>Aug 25-Sep 25</small> <img class="mx-2" src="images/down-arrow.png"></p>  
+                        <div class="progress w-90" >              
+                            <div class="progress-bar bg-orange w-80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>                            
+                        </div>
+                        <img class="float-right mr-5 mt-2" src="images/return.png">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center mt-3">.....</div>
+                </div>
+
+                <div class="col-md-12 bg-purple br mt-3">
+                    <p class="mb-0 mt-3 text-white ft-big ml-4"><strong>234.000.k</strong><span class="float-right">...</span></p>
+                    <span class="ft-gray mb-0 text-white ml-4"><small> Total Followers</small></span><img class="ml-3">
+                    <div class="card-body p-3">
+                        <div class="chart">
+                          <canvas id="chart-bar" class="chart-canvas" height="300"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+        
+
+        
+
+
+    </div>
+    <script src="chartjs.min.js"></script>
+    <script>
+        var ctx2 = document.getElementById("chart-line").getContext("2d");
+        
+            var gradientStroke1 = ctx2.createLinearGradient(0, 230, 0, 50);
+        
+            gradientStroke1.addColorStop(1, 'rgba(203,12,159,0.2)');
+            gradientStroke1.addColorStop(0.2, 'rgba(72,72,176,0.0)');
+            gradientStroke1.addColorStop(0, 'rgba(203,12,159,0)'); //purple colors
+        
+            var gradientStroke2 = ctx2.createLinearGradient(0, 230, 0, 50);
+        
+            gradientStroke2.addColorStop(1, 'rgba(20,23,39,0.2)');
+            gradientStroke2.addColorStop(0.2, 'rgba(72,72,176,0.0)');
+            gradientStroke2.addColorStop(0, 'rgba(20,23,39,0)'); //purple colors
+        
+            new Chart(ctx2, {
+              type: "line",
+              data: {
+                labels: ["1", "2","3", "4", "5", "6", "7", "8", "9"],
+                datasets: [{
+                    label: "Followers",
+                    tension: 0.4,
+                    borderWidth: 0,
+                    pointRadius: 0,
+                    borderColor: "#f9bf7a",
+                    borderWidth: 3,
+                    backgroundColor: gradientStroke1,
+                    fill: true,
+                    data: [10,1000, 1000, 1000, 4000, 5000, 4000, 3000, 1000],
+                    maxBarThickness: 6
+        
+                  },
+                ],
+              },
+              options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                  legend: {
+                    display: false,
+                  }
+                },
+                interaction: {
+                  intersect: false,
+                  mode: 'index',
+                },
+                scales: {
+                  y: {
+                    grid: {
+                      drawBorder: false,
+                      display: true,
+                      drawOnChartArea: true,
+                      drawTicks: false,
+                      borderDash: [5, 5]
+                    },
+                    ticks: {
+                      display: true,
+                      padding: 10,
+                      color: '#b2b9bf',
+                      font: {
+                        size: 11,
+                        family: "Open Sans",
+                        style: 'normal',
+                        lineHeight: 2
+                      },
+                    }
+                  },
+                  x: {
+                    grid: {
+                      drawBorder: false,
+                      display: false,
+                      drawOnChartArea: false,
+                      drawTicks: false,
+                      borderDash: [5, 5]
+                    },
+                    ticks: {
+                      display: true,
+                      color: '#b2b9bf',
+                      padding: 20,
+                      font: {
+                        size: 11,
+                        family: "Open Sans",
+                        style: 'normal',
+                        lineHeight: 2
+                      },
+                    }
+                  },
+                },
+              },
+            });
+            var ctx1 = document.getElementById("chart-bar").getContext("2d");
+            
+            var gradientStroke1 = ctx1.createLinearGradient(0, 230, 0, 50);
+
+            gradientStroke1.addColorStop(1, 'rgba(203,12,159,0.2)');
+            gradientStroke1.addColorStop(0.2, 'rgba(72,72,176,0.0)');
+            gradientStroke1.addColorStop(0, 'rgba(203,12,159,0)'); //purple colors
+
+            var gradientStroke2 = ctx1.createLinearGradient(0, 230, 0, 50);
+
+            gradientStroke2.addColorStop(1, 'rgba(20,23,39,0.2)');
+            gradientStroke2.addColorStop(0.2, 'rgba(72,72,176,0.0)');
+            gradientStroke2.addColorStop(0, 'rgba(20,23,39,0)'); //purple colors
+            new Chart(ctx1, {
+              type: "line",
+              data: {
+                labels: ["Jan", "Feb","Mar", "Apr", "May", "Jun", "July"],
+                datasets: [{
+                    label: "Followers",
+                    tension: 0.4,
+                    borderWidth: 0,
+                    pointRadius: 0,
+                    borderColor: "#f9bf7a",
+                    borderWidth: 3,
+                    backgroundColor: gradientStroke1,
+                    fill: true,
+                    data: [0, 200000, 100000, 0, 100000, 200000, 0],
+                    maxBarThickness: 6
+        
+                  },
+                ],
+              },
+              options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                  legend: {
+                    display: false,
+                  }
+                },
+                interaction: {
+                  intersect: false,
+                  mode: 'index',
+                },
+                scales: {
+                  y: {
+                    grid: {
+                      drawBorder: false,
+                      display: true,
+                      drawOnChartArea: true,
+                      drawTicks: false,
+                      borderDash: [5, 5]
+                    },
+                    ticks: {
+                      display: true,
+                      padding: 10,
+                      color: '#b2b9bf',
+                      font: {
+                        size: 11,
+                        family: "Open Sans",
+                        style: 'normal',
+                        lineHeight: 2
+                      },
+                    }
+                  },
+                  x: {
+                    grid: {
+                      drawBorder: false,
+                      display: false,
+                      drawOnChartArea: false,
+                      drawTicks: false,
+                      borderDash: [5, 5]
+                    },
+                    ticks: {
+                      display: true,
+                      color: '#b2b9bf',
+                      padding: 20,
+                      font: {
+                        size: 11,
+                        family: "Open Sans",
+                        style: 'normal',
+                        lineHeight: 2
+                      },
+                    }
+                  },
+                },
+              },
+            });
+          </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    
+
+  </body>
+</html>
